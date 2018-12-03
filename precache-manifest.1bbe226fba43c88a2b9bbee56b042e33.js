@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/win95-player-reactjs/static/css/main.d4545429.chunk.css"
   },
   {
-    "revision": "d59a3c38d898ac52986ba3628908e183",
+    "revision": "35665d28c243771f8d4566e8d16a11ce",
     "url": "/win95-player-reactjs/index.html"
   }
 ];
