@@ -1,6 +1,6 @@
 # React win 95 Player 
 
-<a href = ""> Demo </a>
+<a href = "https://chyper00.github.io/win95-player-reactjs/"> Demo </a>
 
 Working progress 
 
