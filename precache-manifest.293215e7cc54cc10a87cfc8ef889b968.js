@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/win95-player-reactjs/static/js/runtime~main.35781ead.js"
   },
   {
-    "revision": "e20e97fa5052d1863444",
-    "url": "/win95-player-reactjs/static/js/main.e20e97fa.chunk.js"
+    "revision": "9e19ff8e56054cad89ee",
+    "url": "/win95-player-reactjs/static/js/main.9e19ff8e.chunk.js"
   },
   {
     "revision": "6538844106dec5665aaf",
     "url": "/win95-player-reactjs/static/js/1.65388441.chunk.js"
   },
   {
-    "revision": "e20e97fa5052d1863444",
+    "revision": "9e19ff8e56054cad89ee",
     "url": "/win95-player-reactjs/static/css/main.d4545429.chunk.css"
   },
   {
-    "revision": "35665d28c243771f8d4566e8d16a11ce",
+    "revision": "9ce598adfdfc8dc01941658de58449d4",
     "url": "/win95-player-reactjs/index.html"
   }
 ];

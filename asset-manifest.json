@@ -1,7 +1,7 @@
 {
   "main.css": "/win95-player-reactjs/static/css/main.d4545429.chunk.css",
-  "main.js": "/win95-player-reactjs/static/js/main.e20e97fa.chunk.js",
-  "main.js.map": "/win95-player-reactjs/static/js/main.e20e97fa.chunk.js.map",
+  "main.js": "/win95-player-reactjs/static/js/main.9e19ff8e.chunk.js",
+  "main.js.map": "/win95-player-reactjs/static/js/main.9e19ff8e.chunk.js.map",
   "static/js/1.65388441.chunk.js": "/win95-player-reactjs/static/js/1.65388441.chunk.js",
   "static/js/1.65388441.chunk.js.map": "/win95-player-reactjs/static/js/1.65388441.chunk.js.map",
   "runtime~main.js": "/win95-player-reactjs/static/js/runtime~main.35781ead.js",
@@ -9,6 +9,6 @@
   "static/css/main.d4545429.chunk.css.map": "/win95-player-reactjs/static/css/main.d4545429.chunk.css.map",
   "static/media/win95.css": "/win95-player-reactjs/static/media/ms-sans-serif.9686cb7d.ttf",
   "index.html": "/win95-player-reactjs/index.html",
-  "precache-manifest.1bbe226fba43c88a2b9bbee56b042e33.js": "/win95-player-reactjs/precache-manifest.1bbe226fba43c88a2b9bbee56b042e33.js",
+  "precache-manifest.293215e7cc54cc10a87cfc8ef889b968.js": "/win95-player-reactjs/precache-manifest.293215e7cc54cc10a87cfc8ef889b968.js",
   "service-worker.js": "/win95-player-reactjs/service-worker.js"
 }
