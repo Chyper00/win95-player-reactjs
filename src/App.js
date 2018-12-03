@@ -44,7 +44,7 @@ const CustomPlayer = withSoundCloudAudio(props => {
 
         
 
-      <div className="container ">
+      <div className="container">
 
       
             <br/>
@@ -75,13 +75,13 @@ const CustomPlayer = withSoundCloudAudio(props => {
                     <div className="col s6">
                         <div className="player-control">
                                 <button className="play-button" 
-                                onClick={() => play()}>&#9658;</button>
-                                <button className="player-button" onClick={() => play()}> &#10074;&#10074;</button>
-                                <button className="player-button"> &#9724;</button>
-                                <button className="player-button"> &#x23EE;</button>
-                                <button className="player-button"> &#x23F4;</button>
-                                <button className="player-button"> &#x23F5;</button>
-                                <button className="player-button"> &#x23ED;</button> 
+                                onClick={() => play()}><i class="tiny material-icons ">play_arrow</i> </button>
+                                <button className="player-button" onClick={() => play()}> <i class="tiny material-icons">pause</i> </button>
+                                <button className="player-button"> <i class="tiny material-icons">stop</i></button>
+                                <button className="player-button"> <i class="tiny material-icons">skip_previous</i></button>
+                                <button className="player-button"> <i class="tiny material-icons">fast_rewind</i></button>
+                                <button className="player-button"> <i class="tiny material-icons">fast_forward</i></button>
+                                <button className="player-button"> <i class="tiny material-icons">skip_next</i></button> 
                         </div>
                     </div>
                 </div>
