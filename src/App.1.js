@@ -1,11 +1,10 @@
 import React from 'react';
-
 import {  Timer } from 'react-soundplayer/components';
 import { withSoundCloudAudio } from 'react-soundplayer/addons';
 import './win95.css'
 
 const clientId = 'q241TWlfmzYAESNz2Y7GNCbSGeQ6mKL2';
-const resolveUrl = 'https://soundcloud.com/superfly600/aesthetic-1-hour-vaporwave-mix';
+const resolveUrl = 'https://soundcloud.com/oatmello/inside-w-chief-1?in=chillhopdotcom/sets/lofihiphop';
 
 const WindowHead = (props) => {
     return (
@@ -14,13 +13,6 @@ const WindowHead = (props) => {
             <span className="cd-player"></span>CD player -  {props.title}                              
             </div> 
         </div>
-    );
-};
-
-const Windown = () => {
-    return (
-        <div className="overlay-win"> Not Ready</div>
-
     );
 };
 
@@ -35,7 +27,7 @@ const CustomPlayer = withSoundCloudAudio(props => {
   };
 
   if (!track) {
-    return <div className=""><div className="center-align"><img src= 'https://cdn140.picsart.com/268237737024211.png?r1024x1024' alt =''    width="23px"/></div></div>;
+    return <div className=""><div className="center-align"><img src= 'https://cdn140.picsart.com/268237737024211.png?r1024x1024' alt =''    width="60px"/></div></div>;
   }
  
 
@@ -44,7 +36,7 @@ const CustomPlayer = withSoundCloudAudio(props => {
 
         
 
-      <div className="container ">
+      <div className="container">
 
       
             <br/>
@@ -60,6 +52,7 @@ const CustomPlayer = withSoundCloudAudio(props => {
                         </ul>                        
                     </div>
                 </div>
+               
                 
                 <div className="row">
                     <div className="col s6">
@@ -94,7 +87,7 @@ const CustomPlayer = withSoundCloudAudio(props => {
                     </div>
                     <div className="windows-row">
                         <div className="col s1">Artist</div>
-                        <div className="col s11"><div className="player-input-of truncate" >Many</div></div>
+                        <div className="col s11"><div className="player-input-of truncate" >{track.tag_list.split(' ')[0]}</div></div>
                     </div> 
                     <div className="windows-row">
                         <div className="col s1">Genre</div>
@@ -113,27 +106,15 @@ const CustomPlayer = withSoundCloudAudio(props => {
   );
 });
 
+const App = () => {
+return (
+  <CustomPlayer
+        resolveUrl={resolveUrl}
+        clientId={clientId}
+        onReady={() => {
+          console.log('player url ready!');
+        }} />
+);
+};
 
-class App extends React.Component {
-
-    constructor () {
-        super();
-        this.state = {
-            help:true
-        }
-    }
-    render() {
-        
-      return <div>
-          
-          <CustomPlayer
-            resolveUrl={resolveUrl}
-            clientId={clientId}
-            help = {this.state.help}
-            onReady={() => {
-                console.log('player url ready!');
-            }} />
-      </div>;
-    }
-  }
 export default App;

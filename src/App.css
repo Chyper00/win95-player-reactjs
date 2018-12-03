@@ -30,3 +30,8 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-play {
+  height: 20px;
+  width: 20px
+}
